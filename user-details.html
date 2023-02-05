@@ -7,29 +7,29 @@
     <title>User Registration</title>
 </head>
 <body>
-    <form>
+    <form method="get" target="_blank">
         <fieldset>
             <legend>User Registration</legend>
             <label for="username">Enter your name</label>
-            <input type="text" name="username" id="username">
+            <input type="text" name="username" id="username" value="john" raadonly disabled>
             <br>
-            <label for="useremail">Enter your E-mail</label>
-            <input type="text" name="email" id="email">
+            <label for="useremail" >Enter your E-mail</label>
+            <input type="text" name="email" id="email" placeholder="a@email.com" autofocus>
             <br>
             <label for="userpassword">Enter your password</label>
             <input type="password" name="userpassword" id="userpassword">
             <br>
             Gender <br>
             <label for="male">Male</label>
-            <input type="radio" name="gender" id="male">
+            <input type="radio" name="gender" id="male" value="male">
             <br>
             <label for="female">Female</label>
-            <input type="radio" name="gender" id="female">
+            <input type="radio" name="gender" id="female" value="female">
             <br>
             <label for="transgender">Transgender</label>
-            <input type="radio" name="gender" id="transgender">
+            <input type="radio" name="gender" id="transgender" value="transgender">
             <br>
-
+            <input type="number" min="0" max="8">
             <input type="submit">
         </fieldset>
     </form>
