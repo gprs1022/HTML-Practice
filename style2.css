@@ -1,0 +1,29 @@
+/* universal Selector */
+*{
+    margin:0;
+    padding:0;
+}
+
+/* Element Selector */
+/* h1{
+    color:#808080;
+} */
+/* Class Selector */
+.pra{
+    color:yellow
+}
+
+.prahello{
+    color:blue;
+}
+
+/* ID Selector */    
+#id1{
+    color:white;
+    background-color: black;
+}
+/* Selector List */
+
+.class1 , .class7 , .class10 {
+    
+}
