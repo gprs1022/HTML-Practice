@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesudo Classes</title>
+    <style>
+
+        /* hover */
+        .hover:hover {
+            background-color:red;
+            color:white;
+        }
+        /* hover 
+        input:focus {
+            color:red;
+            background-color:black;
+            font-size:25px;
+        }
+        a:hover{
+            color:pink;
+        }
+        a:active {
+            color:brown;
+        } */
+       /* a:visited {
+            color:black;
+        } */
+        a:nth-child(even) {
+            background-color: yellow;
+        }
+        p:first-line{
+            color:violet;
+        }
+      p::after {
+        content: "-Pradeep";
+        color:aqua;
+      }
+       p::before {
+        content: "-Pradeep";
+        color:aqua;
+      }
+      p::selection{
+        background-color: black;
+        color:yellow;
+      }
+    </style>
+</head>
+<body>
+    <!-- Pseudo Class -->
+
+    <p class="hover">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, illum!
+    </p>
+    <input type="text" />
+    <hr>
+   <nav>
+    
+    <a href="https://www.google.co.in/">Google</a>
+    <a href="https://www.google.co.in/">Google</a>
+   </nav>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum iste nesciunt minima aliquam non tempore explicabo error facilis laboriosam deleniti!</p>
+</body>
+</html>
