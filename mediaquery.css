@@ -1,0 +1,58 @@
+body {
+    background-color: red;
+}
+
+div {
+    font-size: x-large;
+    text-align:center;
+}
+
+div::after {
+    content: 'Welcome to the web page';
+
+}
+
+@media (max-width: 400px){
+    body {
+        background-color:white;
+    }
+    div:after {
+        content: 'very small';
+    }
+}
+
+
+/* @media (min-width: 400px) and (max-width: 759px){
+    body{
+        background-color: yellowgreen;
+    }
+    div::after {
+        content: 'Mid size Device'
+    }
+} */
+@media (min-width: 760px) {
+    /* if view port is atleast 760px then this style will apply */
+    body{
+        background-color: rgb(159, 18, 241);
+    }
+    div::after {
+        content: 'Who its working';
+    }
+}
+@media ( 400px >= width <= 759px){
+    body{
+        background-color: yellowgreen;
+    }
+    div::after {
+        content: 'Mid size Device'
+    }
+}
+@media (min-width: 900px) {
+    /* if view port is atleast 900px then this style will apply */
+    body{
+        background-color: aquamarine;
+    }
+    div::after {
+        content: 'Who its working';
+    }
+}
